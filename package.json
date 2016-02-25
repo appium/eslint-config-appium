@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-appium",
+  "version": "0.0.1",
+  "description": "Shared config for Appium's eslint style",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "appium",
+    "es2015"
+  ],
+  "author": "appium",
+  "license": "Apache-2.0",
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "eslint": "^2.2.0",
+    "eslint-plugin-babel": "^3.1.0",
+    "eslint-plugin-import": "^1.0.0"
+  }
+}
