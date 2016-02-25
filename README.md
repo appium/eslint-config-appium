@@ -4,6 +4,28 @@ This package works to provide [eslint](http://eslint.org/) [shared configuration
 
 It uses [babel-eslint](https://github.com/babel/babel-eslint) as a parser.
 
+### Usage
+
+Install the package
+
+```
+npm install -D eslint-config-appium
+```
+
+And then, in your `.eslintrc` file extend the configuration
+
+```
+{
+  "extends": "appium"
+}
+```
+
+If you are using [appium-gulp-plugins](https://www.npmjs.com/package/appium-gulp-plugins) you can then run
+
+```
+gulp eslint
+```
+
 ### Peer Dependencies
 
 This config requires the following packages be installed in your project:
