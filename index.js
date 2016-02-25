@@ -31,9 +31,12 @@ module.exports = {
     'babel/array-bracket-spacing': 1,
     'babel/object-shorthand': 1,
     'babel/arrow-parens': 1,
+    'import/named': 2,
+    'import/export': 2,
+    'import/no-unresolved': 2,
+    'import/no-duplicates': 2
   },
   extends: [
-    'eslint:recommended',
-    'plugin:import/errors'
+    'eslint:recommended'
   ]
 }
