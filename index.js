@@ -15,7 +15,8 @@ module.exports = {
   },
   plugins: [
     "babel",
-    "import"
+    "import",
+    "mocha"
   ],
   rules: {
     semi: [2, 'always'],
@@ -31,10 +32,10 @@ module.exports = {
     'babel/array-bracket-spacing': 1,
     'babel/object-shorthand': 1,
     'babel/arrow-parens': 1,
-    'import/named': 2,
     'import/export': 2,
     'import/no-unresolved': 2,
-    'import/no-duplicates': 2
+    'import/no-duplicates': 2,
+    'mocha/no-exclusive-tests': 2
   },
   extends: [
     'eslint:recommended'
