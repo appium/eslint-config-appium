@@ -33,3 +33,4 @@ This config requires the following packages be installed in your project:
 * [eslint](https://www.npmjs.com/package/eslint)
 * [eslint-plugin-babel](https://www.npmjs.com/package/eslint-plugin-babel)
 * [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
+* [eslint-plugin-mocha](https://www.npmjs.com/package/eslint-plugin-mocha)
