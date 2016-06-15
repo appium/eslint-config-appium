@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-appium",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Shared config for Appium's eslint style",
   "repository": {
     "type": "git",
