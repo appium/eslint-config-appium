@@ -8,7 +8,11 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint-find-current-rules": "eslint-find-rules -c",
+    "eslint-find-all-rules": "eslint-find-rules -a",
+    "eslint-find-plugin-rules": "eslint-find-rules -p",
+    "eslint-find-unused-rules": "eslint-find-rules -u -n"
   },
   "keywords": [
     "eslint",
@@ -18,10 +22,17 @@
   ],
   "author": "appium",
   "license": "Apache-2.0",
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {
     "eslint": "^2.2.0",
+    "eslint-plugin-babel": "^3.1.0",
+    "eslint-plugin-import": "^1.0.0",
+    "eslint-plugin-mocha": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "6.0.4",
+    "eslint": "^2.2.0",
+    "eslint-find-rules": "^1.10.0",
     "eslint-plugin-babel": "^3.1.0",
     "eslint-plugin-import": "^1.0.0",
     "eslint-plugin-mocha": "^2.2.0"
