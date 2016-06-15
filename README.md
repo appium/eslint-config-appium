@@ -30,6 +30,7 @@ gulp eslint
 
 This config requires the following packages be installed in your project:
 
+* [babel-eslint](https://www.npmjs.com/package/babel-eslint)
 * [eslint](https://www.npmjs.com/package/eslint)
 * [eslint-plugin-babel](https://www.npmjs.com/package/eslint-plugin-babel)
 * [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
