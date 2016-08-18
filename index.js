@@ -20,6 +20,7 @@ module.exports = {
   ],
   rules: {
     semi: [2, 'always'],
+    'no-whitespace-before-property': 1,
     'dot-notation': 2,
     eqeqeq: [2, 'smart'],
     'brace-style': [2, '1tbs', {allowSingleLine: true}],
