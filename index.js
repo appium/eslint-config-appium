@@ -21,7 +21,7 @@ module.exports = {
   rules: {
     semi: [2, 'always'],
     radix: [1, 'always'], // just warn, for now
-    'no-whitespace-before-property': 1,
+    'no-whitespace-before-property': 2,
     'dot-notation': 2,
     eqeqeq: [2, 'smart'],
     'brace-style': [2, '1tbs', {allowSingleLine: true}],
@@ -31,7 +31,7 @@ module.exports = {
     'keyword-spacing': 2,
     'comma-dangle': 0,
     'no-empty': 0,
-    'space-before-function-paren': [1, 'always'],
+    'space-before-function-paren': [2, 'always'],
     'babel/array-bracket-spacing': 1,
     'babel/object-shorthand': 1,
     'babel/arrow-parens': 1,
