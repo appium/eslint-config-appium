@@ -32,6 +32,8 @@ module.exports = {
     'comma-dangle': 0,
     'no-empty': 0,
     'space-before-function-paren': [2, 'always'],
+    'space-before-blocks': [1, 'always'],
+    'space-in-parens': [1, 'never'],
     'babel/array-bracket-spacing': 1,
     'babel/object-shorthand': 1,
     'babel/arrow-parens': 1,
