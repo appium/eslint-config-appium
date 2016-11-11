@@ -36,6 +36,7 @@
     "eslint-find-rules": "^1.10.0",
     "eslint-plugin-babel": "^3.2.0",
     "eslint-plugin-import": "^1.8.1",
-    "eslint-plugin-mocha": "^3.0.0"
+    "eslint-plugin-mocha": "^3.0.0",
+    "eslint-plugin-promise": "^3.3.1"
   }
 }

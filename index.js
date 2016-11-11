@@ -16,7 +16,8 @@ module.exports = {
   plugins: [
     "babel",
     "import",
-    "mocha"
+    "mocha",
+    "promise"
   ],
   rules: {
     semi: [2, 'always'],
@@ -40,7 +41,13 @@ module.exports = {
     'import/export': 2,
     'import/no-unresolved': 2,
     'import/no-duplicates': 2,
-    'mocha/no-exclusive-tests': 2
+    'mocha/no-exclusive-tests': 2,
+    "promise/no-return-wrap": 1,
+    "promise/param-names": 1,
+    "promise/catch-or-return": 1,
+    "promise/no-native": 1,
+    "promise/prefer-await-to-then": 1,
+    "promise/prefer-await-to-callbacks": 1,
   },
   extends: [
     'eslint:recommended'
