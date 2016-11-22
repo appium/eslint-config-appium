@@ -14,7 +14,6 @@ module.exports = {
     es6: true
   },
   plugins: [
-    "babel",
     "import",
     "mocha",
     "promise"
@@ -33,11 +32,11 @@ module.exports = {
     'comma-dangle': 0,
     'no-empty': 0,
     'space-before-function-paren': [2, 'always'],
-    'space-before-blocks': [1, 'always'],
-    'space-in-parens': [1, 'never'],
-    'babel/array-bracket-spacing': 1,
-    'babel/object-shorthand': 1,
-    'babel/arrow-parens': 1,
+    'space-before-blocks': [2, 'always'],
+    'space-in-parens': [2, 'never'],
+    'array-bracket-spacing': 2,
+    'object-shorthand': 2,
+    'arrow-parens': 2,
     'import/export': 2,
     'import/no-unresolved': 2,
     'import/no-duplicates': 2,
