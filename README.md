@@ -32,7 +32,6 @@ This config requires the following packages be installed (as dev dependencies) i
 
 * [babel-eslint](https://www.npmjs.com/package/babel-eslint)
 * [eslint](https://www.npmjs.com/package/eslint)
-* [eslint-plugin-babel](https://www.npmjs.com/package/eslint-plugin-babel)
 * [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
 * [eslint-plugin-mocha](https://www.npmjs.com/package/eslint-plugin-mocha)
 * (eslint-plugin-promise)(https://www.npmjs.com/package/eslint-plugin-promise)
