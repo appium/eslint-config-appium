@@ -47,6 +47,7 @@ module.exports = {
     "promise/no-native": 1,
     "promise/prefer-await-to-then": 1,
     "promise/prefer-await-to-callbacks": 1,
+    "require-await": 2
   },
   extends: [
     'eslint:recommended'
