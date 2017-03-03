@@ -20,7 +20,7 @@ module.exports = {
   ],
   rules: {
     semi: [2, 'always'],
-    radix: [1, 'always'], // just warn, for now
+    radix: [2, 'always'],
     'no-whitespace-before-property': 2,
     'dot-notation': 2,
     eqeqeq: [2, 'smart'],
@@ -49,6 +49,7 @@ module.exports = {
     "promise/prefer-await-to-callbacks": 1,
     "require-await": 2,
     "no-trailing-spaces": 2,
+    "no-var": 2,
   },
   extends: [
     'eslint:recommended'
