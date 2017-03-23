@@ -28,7 +28,7 @@ module.exports = {
     'comma-dangle': 0,
     'no-empty': 0,
     'object-shorthand': 2,
-    'arrow-parens': 2,
+    // 'arrow-parens': 2, // TODO: fix when they figure out async functions
     'import/export': 2,
     'import/no-unresolved': 2,
     'import/no-duplicates': 2,
@@ -39,9 +39,9 @@ module.exports = {
     "promise/no-native": 1,
     "promise/prefer-await-to-then": 1,
     "promise/prefer-await-to-callbacks": 1,
-    "require-await": 2,
+    // "require-await": 2, // TODO: update when we have time to get eslint upgraded throughout
     "no-var": 2,
-    curly: [2, "multi-or-nest", "consistent"]
+    curly: [2, "all"],
 
     // enforce spacing
     "arrow-spacing": 2,
@@ -57,9 +57,9 @@ module.exports = {
     "space-before-blocks": [2, "always"],
     "space-before-function-paren": [2, "always"],
     "space-unary-ops": [2, {
-      "words": true,
-      "nonwords": false,
-    }]
+      words: true,
+      nonwords: false,
+    }],
   },
   extends: [
     'eslint:recommended'
