@@ -33,6 +33,7 @@ module.exports = {
     'import/no-unresolved': 2,
     'import/no-duplicates': 2,
     'mocha/no-exclusive-tests': 2,
+    'mocha/no-mocha-arrows': 1, // warn for arrow functions in mocha
     "promise/no-return-wrap": 1,
     "promise/param-names": 1,
     "promise/catch-or-return": 1,
