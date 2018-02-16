@@ -34,4 +34,4 @@ This config requires the following packages be installed (as dev dependencies) i
 * [eslint](https://www.npmjs.com/package/eslint)
 * [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
 * [eslint-plugin-mocha](https://www.npmjs.com/package/eslint-plugin-mocha)
-* (eslint-plugin-promise)(https://www.npmjs.com/package/eslint-plugin-promise)
+* [eslint-plugin-promise](https://www.npmjs.com/package/eslint-plugin-promise)
