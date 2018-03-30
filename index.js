@@ -1,8 +1,8 @@
 module.exports = {
-  parser: "babel-eslint",
+  parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 6,
-    sourceType: "module",
+    sourceType: 'module',
     ecmaFeatures: {
       impliedStrict: true,
       experimentalObjectRestSpread: true
@@ -14,9 +14,9 @@ module.exports = {
     es6: true
   },
   plugins: [
-    "import",
-    "mocha",
-    "promise"
+    'import',
+    'mocha',
+    'promise'
   ],
   rules: {
     semi: [2, 'always'],
@@ -34,33 +34,40 @@ module.exports = {
     'import/no-duplicates': 2,
     'mocha/no-exclusive-tests': 2,
     'mocha/no-mocha-arrows': 1, // warn for arrow functions in mocha
-    "promise/no-return-wrap": 1,
-    "promise/param-names": 1,
-    "promise/catch-or-return": 1,
-    "promise/no-native": 1,
-    "promise/prefer-await-to-then": 1,
-    "promise/prefer-await-to-callbacks": 1,
+    'promise/no-return-wrap': 1,
+    'promise/param-names': 1,
+    'promise/catch-or-return': 1,
+    'promise/no-native': 1,
+    'promise/prefer-await-to-then': 1,
+    'promise/prefer-await-to-callbacks': 1,
     // "require-await": 2, // TODO: update when we have time to get eslint upgraded throughout
-    "no-var": 2,
-    curly: [2, "all"],
+    'no-var': 2,
+    curly: [2, 'all'],
 
     // enforce spacing
-    "arrow-spacing": 2,
-    "keyword-spacing": 2,
-    "comma-spacing": [2, {
+    'arrow-spacing': 2,
+    'keyword-spacing': 2,
+    'comma-spacing': [2, {
       before: false,
       after: true
     }],
-    "array-bracket-spacing": 2,
-    "no-trailing-spaces": 2,
-    "no-whitespace-before-property": 2,
-    "space-in-parens": [2, "never"],
-    "space-before-blocks": [2, "always"],
-    "space-before-function-paren": [2, "always"],
-    "space-unary-ops": [2, {
+    'array-bracket-spacing': 2,
+    'no-trailing-spaces': 2,
+    'no-whitespace-before-property': 2,
+    'space-in-parens': [2, 'never'],
+    'space-before-blocks': [2, 'always'],
+    'space-before-function-paren': [2, 'always'],
+    'space-unary-ops': [2, {
       words: true,
       nonwords: false,
     }],
+    'space-infix-ops': 1,
+    'key-spacing': [1, {
+      mode: 'strict',
+      beforeColon: false,
+      afterColon: true,
+    }],
+    'no-multi-spaces': 1,
   },
   extends: [
     'eslint:recommended'
