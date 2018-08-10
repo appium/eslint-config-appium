@@ -23,8 +23,23 @@ module.exports = {
     radix: [2, 'always'],
     'dot-notation': 2,
     eqeqeq: [2, 'smart'],
-    'brace-style': [2, '1tbs', {allowSingleLine: true}],
-    indent: [2, 2, {VariableDeclarator: {var: 2, let: 2, const: 3}, SwitchCase: 1}],
+    'brace-style': [2, '1tbs', {
+      allowSingleLine: true,
+    }],
+    indent: [2, 2, {
+      VariableDeclarator: {
+        var: 2,
+        let: 2,
+        const: 3,
+      },
+      ImportDeclaration: 'first',
+      CallExpression: {
+        arguments: 'off',
+      },
+      MemberExpression: 'off',
+      ObjectExpression: 'first',
+      SwitchCase: 1,
+    }],
     'comma-dangle': 0,
     'no-empty': 0,
     'object-shorthand': 2,
@@ -37,10 +52,10 @@ module.exports = {
     'promise/no-return-wrap': 1,
     'promise/param-names': 1,
     'promise/catch-or-return': 1,
-    'promise/no-native': 1,
+    'promise/no-native': 2,
     'promise/prefer-await-to-then': 1,
     'promise/prefer-await-to-callbacks': 1,
-    // "require-await": 2, // TODO: update when we have time to get eslint upgraded throughout
+    'require-await': 2,
     'no-var': 2,
     curly: [2, 'all'],
 
@@ -61,15 +76,15 @@ module.exports = {
       words: true,
       nonwords: false,
     }],
-    'space-infix-ops': 1,
-    'key-spacing': [1, {
+    'space-infix-ops': 2,
+    'key-spacing': [2, {
       mode: 'strict',
       beforeColon: false,
       afterColon: true,
     }],
-    'no-multi-spaces': 1,
+    'no-multi-spaces': 2,
   },
   extends: [
-    'eslint:recommended'
-  ]
-}
+    'eslint:recommended',
+  ],
+};
