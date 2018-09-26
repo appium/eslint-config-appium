@@ -26,20 +26,14 @@
   ],
   "author": "appium",
   "license": "Apache-2.0",
-  "dependencies": {},
-  "peerDependencies": {
-    "babel-eslint": "^9.0.0",
+  "dependencies": {
+    "babel-eslint": "^10.0.0",
     "eslint": "^5.2.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-mocha": "^5.0.0",
     "eslint-plugin-promise": "^4.0.0"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.0",
-    "eslint": "^5.2.0",
-    "eslint-find-rules": "^3.2.3",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-mocha": "^5.0.0",
-    "eslint-plugin-promise": "^4.0.0"
+    "eslint-find-rules": "^3.2.3"
   }
 }
