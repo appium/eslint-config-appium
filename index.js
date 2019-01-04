@@ -83,6 +83,10 @@ module.exports = {
       afterColon: true,
     }],
     'no-multi-spaces': 2,
+    quotes: [2, 'single', {
+      avoidEscape: true,
+      allowTemplateLiterals: true,
+    }],
   },
   extends: [
     'eslint:recommended',
