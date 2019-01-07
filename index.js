@@ -87,7 +87,6 @@ module.exports = {
       avoidEscape: true,
       allowTemplateLiterals: true,
     }],
-    'no-use-before-define': 2,
   },
   extends: [
     'eslint:recommended',
