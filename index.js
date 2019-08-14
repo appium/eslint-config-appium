@@ -87,7 +87,8 @@ module.exports = {
       avoidEscape: true,
       allowTemplateLiterals: true,
     }],
-    'no-buffer-constructor': 2,
+    'no-buffer-constructor': 1,
+    'require-atomic-updates': 0,
   },
   extends: [
     'eslint:recommended',
