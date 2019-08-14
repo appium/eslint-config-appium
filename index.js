@@ -90,7 +90,7 @@ module.exports = {
     'no-buffer-constructor': 1,
     'require-atomic-updates': 1,
     'no-prototype-builtins': 1,
-
+    'no-redeclare': 1,
   },
   extends: [
     'eslint:recommended',
