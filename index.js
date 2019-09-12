@@ -19,6 +19,7 @@ module.exports = {
     'promise'
   ],
   rules: {
+    'no-console': 2,
     semi: [2, 'always'],
     radix: [2, 'always'],
     'dot-notation': 2,
@@ -88,7 +89,7 @@ module.exports = {
       allowTemplateLiterals: true,
     }],
     'no-buffer-constructor': 1,
-    'require-atomic-updates': 1,
+    'require-atomic-updates': 0,
     'no-prototype-builtins': 1,
     'no-redeclare': 1,
   },
