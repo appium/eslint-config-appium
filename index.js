@@ -44,7 +44,8 @@ module.exports = {
     'comma-dangle': 0,
     'no-empty': 0,
     'object-shorthand': 2,
-    // 'arrow-parens': 2, // TODO: fix when they figure out async functions
+    'arrow-parens': [1, 'always'],
+    'arrow-body-style': [1, 'as-needed'],
     'import/export': 2,
     'import/no-unresolved': 2,
     'import/no-duplicates': 2,
