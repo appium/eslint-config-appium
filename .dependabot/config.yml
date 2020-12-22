@@ -1,5 +1,11 @@
-version: 1
-update_configs:
-  - package_manager: "javascript"
-    directory: "/"
-    update_schedule: "live"
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "11:00"
+  open-pull-requests-limit: 10
+  commit-message:
+    prefix: "chore"
+    include: "scope"
