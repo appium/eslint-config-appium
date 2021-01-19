@@ -8,6 +8,11 @@ module.exports = {
       impliedStrict: true,
       experimentalObjectRestSpread: true
     },
+    babelOptions: {
+      plugins: [
+        '@babel/plugin-proposal-class-properties'
+      ]
+    }
   },
   env: {
     node: true,
